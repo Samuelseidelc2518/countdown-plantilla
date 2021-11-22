@@ -418,7 +418,7 @@ left: 0;
 	line-height: 45px;
 }
 .banner-container {
-	background-image: url('../images/bg4.png');
+	background-image: url('../images/bg.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 775px;
@@ -1195,4 +1195,9 @@ color: #FFFFFF;
 }
 .footerTxt a{
 	color:#888;
+}
+
+.imagen_logo{
+	background-color: #fff8;
+	border-radius: 25px;
 }
