@@ -3,9 +3,11 @@ Author URI: http://webthemez.com/
 */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 :root{
-	--amarillo-principal: #fdcb16;
+	--amarillo-principal: #fdcb16bb;
 }
+
 
 * {
 	margin: 0;
@@ -347,19 +349,21 @@ h2, .h2 {
 	display: inline-block;
 	margin-left: 10px;
 	font-size: 42px;
-	font-weight: normal;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
 	text-align: center;
 	height: 30px;
 	width: 120px;
-	text-shadow: none;
+	/* text-shadow: #fff 0 2px 5px; */
 	vertical-align: middle;
-	color: #000;
+	color: #5E0B15;
 	margin: 10px 15px;
 	height: auto;
 	padding-bottom: 15px;
-	background: var(--amarillo-principal);
+	background: #fffa;
 	border-right: 2px dashed rgba(255, 255, 255, 0.26);
-	border-radius: 10px;
+	border-radius: 2px;
+	box-shadow: #000 0 15px 15px;
 }
 .styled div:last-child{
 	border:none;
@@ -407,9 +411,10 @@ left: 0;
 }
 .styled div span {
 	display: block;
-	font-size: 16px;
+	font-size: 20px;
 	margin-top: 0;
-	font-weight: normal;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
 	text-align: center;
 	background: rgba(255, 255, 255, 0.06);
 	color: #000;
@@ -494,15 +499,18 @@ left: 0;
 }
 /*home*/
 
-#home .heading h2 {
+.heading h2 {
 	color: #000;
 	font-size: 30px !important;
-	font-weight: normal !important;
-	text-transform: capitalize;
+	font-weight: bold !important;
+	text-transform: uppercase;
 	margin-top: 50px;
+	margin-bottom: 100px;
 	background-color: var(--amarillo-principal);
-	padding: 30px;
-	border-radius: 10px;
+	padding: 10px 30px;
+	border-radius: 2px;
+	font-family: 'Lato', sans-serif;
+	box-shadow: #000 1px 15px 15px;
 }
 #home .heading strong {
 	color: #fff;
@@ -745,9 +753,6 @@ a.arrow-link:hover {
 }
 .da-slider {
 	margin: 0 auto !important;
-}
-.heading h2 {
-	color: #222;
 }
 #contactUs{
 	background: #fff;
@@ -1198,6 +1203,15 @@ color: #FFFFFF;
 }
 
 .imagen_logo{
-	background-color: #fff8;
-	border-radius: 25px;
+	/* background-color: #5FAD56AA; */
+	background-color: #FFFFFFAA;
+	border-radius: 5px;
+	box-shadow: #000 1px 15px 15px;
+}
+
+#contactanos{
+	box-shadow: none;
+	text-transform: none;
+	padding: 30px;
+	margin-bottom: 0;
 }
