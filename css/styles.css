@@ -1078,9 +1078,6 @@ width:100%;;
 	font-size: 50px;
 	border-radius: 10px;
 }
-.styled div span {
-	font-size: 23px;
-}
 .row .six {
 	width: auto;
 }
@@ -1121,9 +1118,6 @@ width:100%;;
 	display: inline-block;
 	margin-left: 10px;
 	font-size: 28px;
-}
-.styled div span {
-	font-size: 14px;
 }
 .navbar {
 	min-height: 69px;
