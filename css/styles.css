@@ -846,15 +846,13 @@ font-weight: 700;
 	margin: auto auto 80px;
 }
 #aboutUs {
-	padding-top: 35px;
-	padding-bottom: 25px;
 	overflow: hidden;
 	color:#fff;
 }
 #aboutUs p, #aboutUs h2{color: #656565;
 padding-bottom:10px;}
 #aboutUs .feature {
-	margin-top: 30px;
+	/* margin-top: 30px; */
 	margin-bottom: 54px;
 }
 #aboutUs .right {
